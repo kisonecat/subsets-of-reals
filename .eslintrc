@@ -1,6 +1,13 @@
 {
-  "extends": "airbnb-base",
-  "env": {
-    "browser": false
-  }
+    "extends": "airbnb-base",
+    "env": {
+	"browser": false
+    },
+    rules: {
+    	"space-in-parens": [1, "always"],
+	"indent": 0,
+	"no-trailing-spaces": 0,
+	"no-mixed-spaces-and-tabs": [2, "smart-tabs"],
+	"no-use-before-define": 0,
+    }	
 }
